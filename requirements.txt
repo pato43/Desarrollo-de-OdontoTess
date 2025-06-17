@@ -1,2 +1,6 @@
+import reflex as rx
 
-reflex==0.7.14
+config = rx.Config(
+    app_name="app",
+    plugins=[rx.plugins.TailwindV3Plugin()],
+)
