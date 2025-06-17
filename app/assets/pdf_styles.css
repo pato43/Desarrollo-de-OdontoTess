@@ -1,0 +1,90 @@
+
+@media print {
+    body {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+}
+.pdf-container {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 20px;
+}
+.pdf-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.pdf-header img {
+    height: 60px;
+}
+.pdf-header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+.pdf-section {
+    margin-bottom: 25px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+}
+.pdf-section h2 {
+    font-size: 18px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 8px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.pdf-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+.pdf-field {
+    display: flex;
+    flex-direction: column;
+}
+.pdf-field-label {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #555;
+}
+.pdf-field-value {
+    font-size: 14px;
+    background-color: #f9f9f9;
+    padding: 8px;
+    border-radius: 4px;
+    min-height: 20px;
+}
+.odontogram-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+.odontogram-table th, .odontogram-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+    font-size: 12px;
+}
+.odontogram-table th {
+    background-color: #f2f2f2;
+}
+.caries {
+    background-color: #ffcccc;
+}
+.sellante {
+    background-color: #cce5ff;
+}
+.restauracion {
+    background-color: #fff0cc;
+}
+.ausente {
+    background-color: #e0e0e0;
+    text-decoration: line-through;
+}
+
